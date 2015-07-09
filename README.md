@@ -6,7 +6,7 @@
 ## General
 
 ### Minimise the use of element selectors
-
+.
 Selectors that contain elements tightly coupled the CSS to specific markup. It is not a safe assumption that the semantics of the content will never change so authors should prefer classes which exist independent of markup and create more flexible CSS.
 
 Source: [SMACSS on modules](http://smacss.com/book/type-module)
@@ -118,7 +118,7 @@ CSS properties do not use underscores or camel case, they use dashes.  Do the sa
 
 Define a global `font-size` in pixels:
 ```css
-.body {
+body {
     font-size: 16px;
 }
 ```
